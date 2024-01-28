@@ -1,0 +1,19 @@
+# ignore directories that are not source code
+node_modules
+dist
+build
+pnpm-lock.yaml
+.changeset
+.vscode
+.DS_Store
+.next
+.vercel
+.turbo
+.eslintcache
+.output
+.vercel_build_output
+.vercel
+coverage
+turbo-cache-key.json
+/examples
+/public

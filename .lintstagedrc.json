@@ -1,0 +1,5 @@
+{
+  "**/*.{mjs,js,cjs,ts,tsx}": ["prettier --write", "eslint"],
+  "**/*.{ts,tsx}": "npm run type-check",
+  "./*.md": ["prettier --write"]
+}
